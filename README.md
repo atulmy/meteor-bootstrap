@@ -9,10 +9,10 @@ https://github.com/atulmy/meteor-bootstrap
 	├── both
 	│   ├── collections
 	│   │   └── dairies.js
-	│	│
+	│   │
 	│   ├── schema
 	│   │   └── dairies.js
-	│	│
+	│   │
 	│   ├── helpers.js
 	│   ├── methods.js
 	│   └── router.js
@@ -20,38 +20,37 @@ https://github.com/atulmy/meteor-bootstrap
 	├── server
 	│   ├── publish
 	│   │   └── dairies.css
-	│	│
+	│   │
 	│   └── startup
 	│       └── dairies.css
 	│
 	├── client
 	│   ├── styles
 	│   │   └── app.css
-	│	│
+	│   │
 	│   ├── subscribe
 	│   │   └── dairies.js
-	│	│
+	│   │
 	│   ├── views
 	│   │   ├── common
 	│   │   │   ├── auth.html
 	│   │   │   ├── loading.html
 	│   │   │   └── common.js
-	│	│	│
+	│   │	│
 	│   │   ├── layout
 	│   │   │   └── default.html
-	│	│	│
+	│   │   │
 	│   │   └── dairies
-	│	│		├── create.html
-	│	│		├── create.js
-	│	│		├── list.html
-	│	│		└── list.js
-	│	│
+	│   │       ├── create.html
+	│   │       ├── create.js
+	│   │       ├── list.html
+	│   │       └── list.js
+	│   │
 	│   └── app.html
 	│
 	└── public
 	    └── images
 	        └── logo.png
-		
 
 ## Packages used
 
