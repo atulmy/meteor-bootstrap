@@ -8,10 +8,10 @@ https://github.com/atulmy/meteor-bootstrap
 	meteor-bootstrap
 	├── both
 	│   ├── collections
-	│   │   └── dairies.js
+	│   │   └── diaries.js
 	│   │
 	│   ├── schema
-	│   │   └── dairies.js
+	│   │   └── diaries.js
 	│   │
 	│   ├── helpers.js
 	│   ├── methods.js
@@ -19,17 +19,17 @@ https://github.com/atulmy/meteor-bootstrap
 	│
 	├── server
 	│   ├── publish
-	│   │   └── dairies.css
+	│   │   └── diaries.css
 	│   │
 	│   └── startup
-	│       └── dairies.css
+	│       └── diaries.css
 	│
 	├── client
 	│   ├── styles
 	│   │   └── app.css
 	│   │
 	│   ├── subscribe
-	│   │   └── dairies.js
+	│   │   └── diaries.js
 	│   │
 	│   ├── views
 	│   │   ├── common
@@ -40,7 +40,7 @@ https://github.com/atulmy/meteor-bootstrap
 	│   │   ├── layout
 	│   │   │   └── default.html
 	│   │   │
-	│   │   └── dairies
+	│   │   └── diaries
 	│   │       ├── create.html
 	│   │       ├── create.js
 	│   │       ├── list.html
