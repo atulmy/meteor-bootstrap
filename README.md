@@ -1,7 +1,57 @@
-# Bootstrap
+# Meteor Bootstrap
 Bootstrap for building Meteor App
 
-Play now: http://github.com/atulmy/meteor-bootstrap
+https://github.com/atulmy/meteor-bootstrap
+
+## Folder Structure
+
+	meteor-bootstrap
+	├── both
+	│   ├── collections
+	│   │   └── dairies.js
+	│	│
+	│   ├── schema
+	│   │   └── dairies.js
+	│	│
+	│   ├── helpers.js
+	│   ├── methods.js
+	│   └── router.js
+	│
+	├── server
+	│   ├── publish
+	│   │   └── dairies.css
+	│	│
+	│   └── startup
+	│       └── dairies.css
+	│
+	├── client
+	│   ├── styles
+	│   │   └── app.css
+	│	│
+	│   ├── subscribe
+	│   │   └── dairies.js
+	│	│
+	│   ├── views
+	│   │   ├── common
+	│   │   │   ├── auth.html
+	│   │   │   ├── loading.html
+	│   │   │   └── common.js
+	│	│	│
+	│   │   ├── layout
+	│   │   │   └── default.html
+	│	│	│
+	│   │   └── dairies
+	│	│		├── create.html
+	│	│		├── create.js
+	│	│		├── list.html
+	│	│		└── list.js
+	│	│
+	│   └── app.html
+	│
+	└── public
+	    └── images
+	        └── logo.png
+		
 
 ## Packages used
 
