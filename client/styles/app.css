@@ -1,0 +1,11 @@
+/* ----------------- bootstrap overides ----------------- */
+.navbar-brand-name > {
+    display: inline-block;
+    float: left;
+
+}
+.navbar-brand-name > img {
+    display: inline-block;
+    float: left;
+    padding: 0 15px 0 0;
+}

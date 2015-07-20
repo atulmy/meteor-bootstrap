@@ -8,28 +8,30 @@ https://github.com/atulmy/meteor-bootstrap
 	meteor-bootstrap
 	├── both
 	│   ├── collections
-	│   │   └── diaries.js
+	│   │   └── thoughts.js
 	│   │
 	│   ├── schema
-	│   │   └── diaries.js
+	│   │   └── thoughts.js
 	│   │
-	│   ├── helpers.js
 	│   ├── methods.js
 	│   └── router.js
 	│
 	├── server
 	│   ├── publish
-	│   │   └── diaries.css
+	│   │   └── thoughts.css
 	│   │
 	│   └── startup
-	│       └── diaries.css
+	│       └── thoughts.css
 	│
 	├── client
+	│   └── lib
+	│   │   └── helpers.js
+	│   │
 	│   ├── styles
 	│   │   └── app.css
 	│   │
 	│   ├── subscribe
-	│   │   └── diaries.js
+	│   │   └── thoughts.js
 	│   │
 	│   ├── views
 	│   │   ├── common
@@ -40,7 +42,7 @@ https://github.com/atulmy/meteor-bootstrap
 	│   │   ├── layout
 	│   │   │   └── default.html
 	│   │   │
-	│   │   └── diaries
+	│   │   └── thoughts
 	│   │       ├── create.html
 	│   │       ├── create.js
 	│   │       ├── list.html
@@ -50,7 +52,8 @@ https://github.com/atulmy/meteor-bootstrap
 	│
 	└── public
 	    └── images
-	        └── logo.png
+			├── logo.png
+	        └── favicon.png
 
 ## Packages used
 

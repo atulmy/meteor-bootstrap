@@ -18,16 +18,6 @@ Meteor.methods({
                 }, 5000);
             });
         }
-    },
-
-    gameShowRPS: function(gameId, interval, intervalWait) {
-        var count = 3;
-        interval = setInterval(function () {
-            if (count >= 0) {
-                Meteor.call('gameUpdateCurrentInterval', gameId, count);
-                count--;
-            }
-        }, intervalWait, count);
-        return interval;
     }
+
 });
