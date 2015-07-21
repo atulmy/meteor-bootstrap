@@ -48,6 +48,8 @@ https://github.com/atulmy/meteor-bootstrap
 * `accounts-google` (user sign in / sign up using Google+)
 * `ian:accounts-ui-bootstrap-3` (sign in / sign up UI elements customized for Twitter Bootstrap css)
 
+Find more at: https://atmospherejs.com/
+
 ## Folder Structure
 
 	meteor-bootstrap

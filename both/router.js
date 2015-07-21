@@ -17,7 +17,7 @@ var loginCheck = function(){
     }
 };
 Router.onBeforeAction(loginCheck, {
-    except: ['home', 'about', 'contact', 'readme', 'thoughts_list']
+    except: ['home', 'about', 'contact', 'readme', 'thoughts_list', 'thoughts_view']
 });
 
 // Pages
