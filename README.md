@@ -4,7 +4,7 @@ Bootstrap for building Meteor App
 https://github.com/atulmy/meteor-bootstrap
 
 ## Getting started
-1. Install meteor: `https://www.meteor.com/install`
+1. Install meteor: https://www.meteor.com/install
 
 2. Create Meteor App by running following command:
 `meteor create myapp`
