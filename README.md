@@ -3,6 +3,41 @@ Bootstrap for building Meteor App
 
 https://github.com/atulmy/meteor-bootstrap
 
+## Getting started
+1. Install meteor: `https://www.meteor.com/install`
+
+2. Create Meteor App by running following command:
+`meteor create myapp`
+
+3. Clone Github repository by running following command:
+`git clone https://github.com/atulmy/meteor-bootstrap.git`
+
+4. Goto `myapp/` directory and delete following files: 
+	1. `myapp.css` 
+	2. `myapp.html` 
+	3. `myapp.js`
+
+5. Copy all the files from `meteor-bootstrap/` directory and paste it inside `myapp/`
+
+6. Goto `myapp/` directory and run meteor by running following command:
+`meteor`
+
+7. Install packages listed in 'Packages used'. Eg for installing iron:router: Run: `meteor add iron:router`
+
+8. Open browser `http://localhost:3000`
+
+## Packages used
+
+* iron:router
+* zimme:iron-router-active
+* sacha:spin
+* aldeed:collection2
+* twbs:bootstrap
+* accounts-facebook
+* accounts-twitter
+* accounts-google
+* ian:accounts-ui-bootstrap-3
+
 ## Folder Structure
 
 	meteor-bootstrap
@@ -41,12 +76,20 @@ https://github.com/atulmy/meteor-bootstrap
 	│   │	│
 	│   │   ├── layout
 	│   │   │   └── default.html
+	│   │   ││
+	│   │   ├── pages
+	│   │       ├── about.html
+	│   │       ├── contact.html
+	│   │       ├── home.html
+	│   │   │   └── readme.html
 	│   │   │
 	│   │   └── thoughts
 	│   │       ├── create.html
 	│   │       ├── create.js
 	│   │       ├── list.html
-	│   │       └── list.js
+	│   │       ├── list.js
+	│   │       ├── view.html
+	│   │       └── view.js
 	│   │
 	│   └── app.html
 	│
@@ -54,18 +97,6 @@ https://github.com/atulmy/meteor-bootstrap
 	    └── images
 			├── logo.png
 	        └── favicon.png
-
-## Packages used
-
-* iron:router
-* zimme:iron-router-active
-* sacha:spin
-* aldeed:collection2
-* twbs:bootstrap
-* accounts-facebook
-* accounts-twitter
-* accounts-google
-* ian:accounts-ui-bootstrap-3
 
 ## Made with Meteor
 
