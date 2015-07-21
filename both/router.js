@@ -74,6 +74,9 @@ Router.onBeforeAction(loginCheck, {
         onBeforeAction: function() {
             Session.set('thoughtId', this.params.thoughtId);
             this.next();
+        },
+        onStop: function() {
+            Session.set('thoughtId', '');
         }
     });
 
@@ -96,5 +99,8 @@ Router.onBeforeAction(loginCheck, {
         onBeforeAction: function() {
             Session.set('thoughtId', this.params.thoughtId);
             this.next();
+        },
+        onStop: function() {
+            Session.set('thoughtId', '');
         }
     });
