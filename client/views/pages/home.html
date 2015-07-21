@@ -1,0 +1,29 @@
+<template name="pagesHome">
+
+    <div class="page-header">
+        <h1>Thoughts</h1>
+    </div>
+
+    <div class="row">
+        <div class="col col-sm-5">
+            <p class="lead">
+                <span class="glyphicon glyphicon-cloud"></span> Recent thoughts
+                
+                <a href="{{ pathFor route='thoughts_list' }}" class="pull-right btn btn-default btn-xs mt5">View All</a>
+            </p>
+
+            {{> thoughtsList }}
+        </div>
+
+        <div class="col col-sm-5 col-sm-offset-2">
+            <p class="lead"><span class="glyphicon glyphicon-comment"></span> Add a thought</p>
+
+            {{> thoughtsCreate }}
+        </div>
+    </div>
+
+    <hr/>
+
+    <p><code>Path: /client/views/pages/home.html</code></p>
+
+</template>

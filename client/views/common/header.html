@@ -20,11 +20,20 @@
 
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="{{isActiveRoute 'create'}}"><a href="{{pathFor route='create'}}">Create</a></li>
+
+                    {{#if currentUser._id }}
+
+                        <li class="{{isActiveRoute 'thoughts_create'}}"><a href="{{pathFor route='thoughts_create'}}">Create</a></li>
+
+                        <li class="{{isActiveRoute 'thoughts_my'}}"><a href="{{pathFor route='thoughts_my'}}">My Thoughts</a></li>
+
+                    {{/if }}
 
                     <li class="{{isActiveRoute 'about'}}"><a href="{{pathFor route='about'}}">About</a></li>
 
                     <li class="{{isActiveRoute 'contact'}}"><a href="{{pathFor route='contact'}}">Contact</a></li>
+
+                    <li class="{{isActiveRoute 'readme'}}"><a href="{{pathFor route='readme'}}">Readme</a></li>
 
                     {{> loginButtons }}
                 </ul>

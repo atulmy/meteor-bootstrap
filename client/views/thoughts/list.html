@@ -1,11 +1,24 @@
 <template name="thoughtsList">
 
-    <p class="lead"><span class="glyphicon glyphicon-cloud"></span> Thoughts going in people's mind</p>
-
     <div class="list-group">
-        <a href="#" class="list-group-item">Dapibus ac facilisis in <span class="badge">14</span></a>
-        <a href="#" class="list-group-item">Dapibus ac facilisis in <span class="badge">14</span></a>
-        <a href="#" class="list-group-item">Morbi leo risus <span class="badge">14</span></a>
+
+        {{# if thoughtsCount }}
+
+            {{# each thoughts }}
+
+                <a href="{{ pathFor route='thoughts_view' thoughtId=this._id }}" class="list-group-item">
+                    <h4 class="list-group-item-heading">{{ text }}</h4>
+                    <p class="list-group-item-text">- {{ by.name }}</p>
+                </a>
+
+            {{/ each }}
+
+        {{ else }}
+
+            <p class="list-group-item">No thoughts have been posted yet.</p>
+
+        {{/ if }}
+
     </div>
 
     <hr/>
