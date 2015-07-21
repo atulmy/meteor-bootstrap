@@ -19,10 +19,10 @@ https://github.com/atulmy/meteor-bootstrap
 
 5. Copy all the files from `meteor-bootstrap/` directory and paste it inside `myapp/`
 
-6. Goto `myapp/` directory and run meteor by running following command:
-`meteor`
+6. Install packages listed in [Packages Used](https://github.com/atulmy/meteor-bootstrap#packages-used) section below. Eg for installing iron:router: Run: `meteor add iron:router`
 
-7. Install packages listed in [Packages Used](https://github.com/atulmy/meteor-bootstrap#packages-used) section below. Eg for installing iron:router: Run: `meteor add iron:router`
+7. Goto `myapp/` directory and run meteor by running following command:
+`meteor`
 
 8. Open browser `http://localhost:3000`
 
