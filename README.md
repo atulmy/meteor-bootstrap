@@ -38,15 +38,15 @@ https://github.com/atulmy/meteor-bootstrap
 
 ## Packages Used
 
-* iron:router
-* zimme:iron-router-active
-* sacha:spin
-* aldeed:collection2
-* twbs:bootstrap
-* accounts-facebook
-* accounts-twitter
-* accounts-google
-* ian:accounts-ui-bootstrap-3
+* iron:router (for routing)
+* zimme:iron-router-active (for adding active class for current route/page)
+* sacha:spin (show loading animation spinner)
+* aldeed:collection2 (provides option to have schema for MongoDB collections)
+* twbs:bootstrap (Twitter Bootstrap)
+* accounts-facebook (user sign in / sign up using Facebook)
+* accounts-twitter (user sign in / sign up using Twitter)
+* accounts-google (user sign in / sign up using Google+)
+* ian:accounts-ui-bootstrap-3 (sign in / sign up UI elements customized for Twitter Bootstrap css)
 
 ## Folder Structure
 
