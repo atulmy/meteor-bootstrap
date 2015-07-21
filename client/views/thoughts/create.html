@@ -5,17 +5,17 @@
         <form id="form-thoughts-create">
             <div class="form-group">
                 <label for="form-diary-title">Thought</label>
-                <textarea class="form-control" rows="3" id="form-thought-text" placeholder=""></textarea>
+                <textarea class="form-control" rows="3" id="form-thought-text">{{ getThoughText }}</textarea>
             </div>
 
             <div class="form-group">
                 <label for="form-diary-title">By</label>
-                <input type="text" class="form-control" id="form-thought-by" value="{{ currentUser.profile.name }}">
+                <input type="text" class="form-control" id="form-thought-by" value="{{ getThoughBy }}" />
             </div>
 
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" id="form-thought-is-public" checked="checked" /> Public
+                    <input type="checkbox" id="form-thought-is-public" {{ getThoughtIsPublic }} /> Public
                 </label>
             </div>
 

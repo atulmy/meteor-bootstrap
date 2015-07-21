@@ -74,7 +74,7 @@ Router.onBeforeAction(loginCheck, {
         onBeforeAction: function() {
             Session.set('thoughtId', this.params.thoughtId);
             this.next();
-        },
+        }
     });
 
     // My Thoughts (user thoughts)
@@ -83,5 +83,18 @@ Router.onBeforeAction(loginCheck, {
         template: 'thoughtsList',
         waitOn: function() {
             return Meteor.subscribe('thoughtsMy', Meteor.userId())
+        }
+    });
+
+    // Edit Thoughts
+    Router.route('/thoughts/edit/:thoughtId', {
+        name: 'thoughts_edit',
+        template: 'thoughtsCreate',
+        waitOn: function() {
+            return Meteor.subscribe('thought', this.params.thoughtId)
+        },
+        onBeforeAction: function() {
+            Session.set('thoughtId', this.params.thoughtId);
+            this.next();
         }
     });

@@ -26,6 +26,16 @@ https://github.com/atulmy/meteor-bootstrap
 
 8. Open browser `http://localhost:3000`
 
+## Default functionalities included (by building simple Thoughts posting website)
+
+* Sign in / Sign up
+* List Thoughts
+* View Single Thought
+* Edit Thought
+* Delete Thought
+* Make Thought public or private
+* Static Pages like About and Contact
+
 ## Packages Used
 
 * iron:router
@@ -73,14 +83,14 @@ https://github.com/atulmy/meteor-bootstrap
 	│   │   │   ├── auth.html
 	│   │   │   ├── loading.html
 	│   │   │   └── common.js
-	│   │	│
+	│   │   │
 	│   │   ├── layout
 	│   │   │   └── default.html
-	│   │   ││
+	│   │   │
 	│   │   ├── pages
-	│   │       ├── about.html
-	│   │       ├── contact.html
-	│   │       ├── home.html
+	│   │   │   ├── about.html
+	│   │   │   ├── contact.html
+	│   │   │   ├── home.html
 	│   │   │   └── readme.html
 	│   │   │
 	│   │   └── thoughts
