@@ -16,6 +16,7 @@ https://github.com/atulmy/meteor-bootstrap
 ## Default functionalities included (by building simple Thoughts posting website)
 
 * Sign in / Sign up
+* Create thought
 * List Thoughts
 * View Single Thought
 * Edit Thought
