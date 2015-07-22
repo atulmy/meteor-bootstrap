@@ -6,30 +6,16 @@ https://github.com/atulmy/meteor-bootstrap
 ## Getting started
 1. Install meteor: https://www.meteor.com/install
 
-2. Create Meteor App by running following command:
-`meteor create myapp`
-
-3. Clone Github repository by running following command:
+2. Clone Github repository by running following command:
 `git clone https://github.com/atulmy/meteor-bootstrap.git`
 
-4. Goto `myapp/` directory and delete following files: 
-	1. `myapp.css` 
-	2. `myapp.html` 
-	3. `myapp.js`
+3. Goto `meteor-bootstrap/` and run following command `meteor`
 
-5. Copy all the files from `meteor-bootstrap/` directory and paste it inside `myapp/`
-
-6. Goto `myapp/` and install packages listed in [Packages Used](https://github.com/atulmy/meteor-bootstrap#packages-used) section below. Eg for installing iron:router: Run: `meteor add iron:router`
-
-7. Goto `myapp/` directory and run meteor by running following command:
-`meteor`
-
-8. Open browser `http://localhost:3000`
+4. Open browser `http://localhost:3000`
 
 ## Default functionalities included (by building simple Thoughts posting website)
 
 * Sign in / Sign up
-* Add Thought
 * List Thoughts
 * View Single Thought
 * Edit Thought
