@@ -1,8 +1,6 @@
 # Meteor Bootstrap
 Bootstrap for building Meteor App
 
-Demo: http://meteor-bootstrap.demo.atulmy.com/
-
 ## Getting started
 1. Install meteor: https://www.meteor.com/install
 
